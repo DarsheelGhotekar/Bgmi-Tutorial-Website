@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>BGMI — Play, Optimize & Download Guide</title>
+    <meta name="description"
+        content="Ultimate BGMI landing page with instructions, safe download mirrors, device settings optimizer, active redeem codes, and pro tips." />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <div class="brand">
+                <div class="logo" aria-hidden="true">BG</div>
+                <div class="brand-text">
+                    <h1 class="site-title">Battlegrounds Mobile India</h1>
+                    <p class="site-tag">Quick Guide • Safe Downloads • Pro Tips</p>
+                </div>
+            </div>
+
+            <nav class="top-nav" role="navigation" aria-label="Primary">
+                <a href="#download">Download</a>
+                <a href="#optimizer">Optimizer</a>
+                <a href="#tips-section">Pro Tips</a>
+                <a href="#redeem-section">Codes</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <h2 class="eyebrow">Battle Royale. Reimagined.</h2>
+                    <h1 class="hero-title">Jump in. Drop Fast. Win Smart.</h1>
+                    <p class="hero-sub">A friendly, step-by-step guide to install BGMI safely, optimize performance, and
+                        get better in matches.</p>
+
+                    <div class="cta-row">
+                        <button class="btn btn-primary" id="hero-btn-playstore"
+                            aria-label="Open Battlegrounds Mobile India on Google Play Store">
+                            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M3 2l18 10-18 10z" fill="currentColor" />
+                            </svg>
+                            Play Store Download
+                        </button>
+                        <button class="btn btn-outline" id="hero-btn-apk" aria-label="Download BGMI Direct APK file">
+                            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="2" fill="none" />
+                            </svg>
+                            Direct APK Mirror
+                        </button>
+                    </div>
+
+                    <ul class="quick-stats">
+                        <li><strong>Mode:</strong> 100-player BR</li>
+                        <li><strong>Recommended:</strong> 4 GB+ RAM</li>
+                        <li><strong>Storage:</strong> 3+ GB (updates)</li>
+                    </ul>
+                </div>
+
+                <aside class="hero-card" id="download" aria-labelledby="download-card-title">
+                    <h3 id="download-card-title">Download & Official Links</h3>
+                    <p class="muted">Always prefer the official store or the official site.</p>
+
+                    <div class="store-buttons">
+                        <button class="store store-play" id="card-btn-playstore"
+                            aria-label="Download from Google Play Store">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M3 2l18 10-18 10z" />
+                            </svg>
+                            Google Play
+                        </button>
+
+                        <button class="store store-apk" id="card-btn-apk" aria-label="Download Direct APK file">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            Direct APK
+                        </button>
+                    </div>
+
+                    <div class="download-stats-container">
+                        <p class="stats-label">Download Hits Logged:</p>
+                        <div class="stats-grid">
+                            <div class="stat-badge">
+                                <span class="badge-title">Play Store</span>
+                                <span class="badge-value" id="stats-playstore">--</span>
+                            </div>
+                            <div class="stat-badge">
+                                <span class="badge-title">APK Mirror</span>
+                                <span class="badge-value" id="stats-apk">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="muted small">Official website:</p>
+                    <p><a class="official-link" href="https://www.battlegroundsmobileindia.com/" target="_blank"
+                            rel="noopener" id="official-website-link">battlegroundsmobileindia.com</a></p>
+
+                    <div class="small-note">
+                        <strong>Before install:</strong>
+                        <ul>
+                            <li>Backup important data</li>
+                            <li>Check permissions & sources</li>
+                            <li>Use Play Store when possible</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Optimizer Section -->
+        <section class="section-container" id="optimizer">
+            <div class="card full-width-card">
+                <div class="card-header">
+                    <span class="section-badge">Optimization Engine</span>
+                    <h2>Device Settings Optimizer</h2>
+                    <p class="section-desc">Select your phone specifications to analyze capacity and receive tailored
+                        graphic overrides, targeted FPS parameters, and mechanical recoil sensitivity charts.</p>
+                </div>
+
+                <div class="optimizer-layout">
+                    <form id="optimizer-form" class="optimizer-form">
+                        <div class="form-group">
+                            <label for="ram-select" class="form-label">System RAM Capacity</label>
+                            <select id="ram-select" name="ram" required class="form-control">
+                                <option value="" disabled selected>Select system RAM...</option>
+                                <option value="3">3 GB or less</option>
+                                <option value="4">4 GB</option>
+                                <option value="6">6 GB</option>
+                                <option value="8">8 GB</option>
+                                <option value="12">12 GB or higher</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="soc-select" class="form-label">Processor Generation (SoC)</label>
+                            <select id="soc-select" name="soc" required class="form-control">
+                                <option value="" disabled selected>Select processor tier...</option>
+                                <option value="high">High-End (Snapdragon 8 Gen series, Dimensity 9000+, Apple A15+)
+                                </option>
+                                <option value="mid">Mid-Range (Snapdragon 7 series, Dimensity 1000-8000, Helio G99)
+                                </option>
+                                <option value="low">Entry-Level (Snapdragon 6 series, Helio G80-G88, Exynos 850)
+                                </option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Analyze Hardware & Configure
+                        </button>
+                    </form>
+
+                    <div class="optimizer-results" id="optimizer-results" aria-live="polite">
+                        <div class="results-placeholder">
+                            <svg class="placeholder-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                                    stroke="currentColor" stroke-width="2" fill="none" />
+                            </svg>
+                            <p>Submit device specs to generate optimal graphics, FPS, and gyroscope layout maps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Grid -->
+        <section class="content-grid" id="tips-section">
+            <!-- Installation Guide -->
+            <article class="card" id="instructions" aria-labelledby="install-title">
+                <h3>How to Install (Android)</h3>
+                <ol class="install-steps">
+                    <li>Open Google Play (recommended) or download the official APK from the official site.</li>
+                    <li>If APK: enable <em>Install unknown apps</em> for your browser (Settings → Apps → Special
+                        access).</li>
+                    <li>Run the APK installer and follow on-screen steps.</li>
+                    <li>Launch the game, let additional resources download, then sign in (Google/Facebook/Guest).</li>
+                </ol>
+
+                <div class="pro-tip">
+                    <strong>Security Warning:</strong> If you see an unknown source warning, double-check the download
+                    URL and checksum before proceeding.
+                </div>
+            </article>
+
+            <!-- Interactive Tips Feed -->
+            <article class="card" id="interactive-tips" aria-labelledby="tips-title">
+                <h3 id="tips-title">Gameplay & Performance Tips</h3>
+
+                <div class="tabs-container" role="tablist" aria-label="Gameplay Strategy Categories">
+                    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tips-panel"
+                        id="tab-all" data-category="all">All</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tips-panel" id="tab-combat"
+                        data-category="combat">Combat</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tips-panel"
+                        id="tab-performance" data-category="performance">Performance</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tips-panel"
+                        id="tab-settings" data-category="settings">Settings</button>
+                </div>
+
+                <div class="tips-panel" id="tips-panel" role="tabpanel" aria-labelledby="tab-all">
+                    <div class="loading-spinner">Loading expert tips...</div>
+                </div>
+
+                <div class="split">
+                    <div>
+                        <h4>Controls Mapping</h4>
+                        <ul>
+                            <li>Move: left stick • Aim/Fire: right side</li>
+                            <li>Tap to pickup • Hold for grenade/throw</li>
+                            <li>Use quick-emote & ping for communication</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>System Settings</h4>
+                        <ul>
+                            <li>Turn off unnecessary background apps</li>
+                            <li>Enable game mode / high-performance override</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Redeem Codes Section -->
+        <section class="section-container" id="redeem-section">
+            <div class="card full-width-card">
+                <div class="card-header">
+                    <span class="section-badge">Rewards Portal</span>
+                    <h2>Active Redeem Codes</h2>
+                    <p class="section-desc">Unlock premium items, crate coupons, and currency. Click any active code
+                        below to instantly copy it and use it on the official BGMI redemption website.</p>
+                </div>
+
+                <div class="codes-grid" id="codes-container">
+                    <div class="loading-spinner">Checking database for available codes...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section-container" id="faq-section">
+            <div class="card full-width-card">
+                <h2 id="faq-title" class="text-center">Frequently Asked Questions</h2>
+                <div class="faq-accordion">
+                    <details class="faq-item">
+                        <summary>Is it safe to install from third-party sites?</summary>
+                        <div class="details-content">
+                            <p>Prefer official sources (Play Store or official website). If using an APK, verify
+                                checksum and use reputable mirrors.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Why is the game large after install?</summary>
+                        <div class="details-content">
+                            <p>The initial installer is often a launcher; additional game files (maps, voice packs)
+                                download after first launch.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Which account should I use?</summary>
+                        <div class="details-content">
+                            <p>Use Google or a linked social account for persistent progress; Guest accounts can be lost
+                                if you clear app data.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Feedback Form -->
+        <section class="section-container" id="contact">
+            <div class="card form-card">
+                <div class="card-header text-center">
+                    <span class="section-badge">Support Desk</span>
+                    <h2>Feedback & Support</h2>
+                    <p class="muted">Spotted a broken link or have a performance suggestion? Drop us a line below.</p>
+                </div>
+
+                <form id="feedback-form" class="feedback-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fb-name" class="form-label">Full Name</label>
+                            <input type="text" id="fb-name" name="name" required class="form-control"
+                                placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fb-email" class="form-label">Email Address</label>
+                            <input type="email" id="fb-email" name="email" required class="form-control"
+                                placeholder="john@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fb-subject" class="form-label">Subject</label>
+                        <input type="text" id="fb-subject" name="subject" class="form-control"
+                            placeholder="Feedback / Broken Link Report / Sensitivity Suggestion">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fb-message" class="form-label">Message</label>
+                        <textarea id="fb-message" name="message" required class="form-control" rows="4"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" id="feedback-submit-btn">Send
+                        Message</button>
+
+                    <div id="form-status" class="form-status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <p class="muted">This is a dynamic guide and landing page. Maintain server connections to enable analytical
+                performance predictions and click counter charts.</p>
+            <p class="muted small">Made with care • <a href="https://www.battlegroundsmobileindia.com/" target="_blank"
+                    rel="noopener">Official Website</a></p>
+        </div>
+    </footer>
+
+    <!-- Lenis Smooth Scroll Library -->
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.23/dist/lenis.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

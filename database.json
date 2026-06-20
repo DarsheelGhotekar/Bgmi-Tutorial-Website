@@ -1,0 +1,71 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "category": "performance",
+      "title": "Frame Rate Over Graphics",
+      "content": "Always set your graphics to 'Smooth' and select the highest available Frame Rate ('Extreme' or '90/120 FPS'). Smoother frame rates decrease input lag and give you a massive combat advantage."
+    },
+    {
+      "id": 2,
+      "category": "combat",
+      "title": "Master the Jiggle Move",
+      "content": "In close-range engagements, move your joystick rapidly left and right (jiggling) while firing. This makes you a much harder target to hit while keeping your crosshair locked onto the enemy."
+    },
+    {
+      "id": 3,
+      "category": "settings",
+      "title": "Enable Gyroscope (Always On)",
+      "content": "Switch Gyroscope to 'Always On'. Tilt your phone to micro-adjust your aim and control recoil instead of relying solely on your thumb. It takes practice but elevates your game to pro levels."
+    },
+    {
+      "id": 4,
+      "category": "combat",
+      "title": "Pre-fire and Sound Cues",
+      "content": "Use stereo headphones. When you hear an enemy rushing around a corner, start firing a split-second before you see them. This compensates for network latency and catches them off-guard."
+    },
+    {
+      "id": 5,
+      "category": "performance",
+      "title": "Enable Background Restrictions",
+      "content": "Go to mobile settings and disable background data usage and battery optimization for other social apps. This prevents background synchronization from causing random ping spikes and micro-stutters."
+    },
+    {
+      "id": 6,
+      "category": "settings",
+      "title": "Customize Pick-up Limits",
+      "content": "Set automatic pickup limits for ammo and utility. Auto-picking 300 rounds of 5.56 will clog your backpack, leaving no room for essential smoke grenades and first-aid kits."
+    }
+  ],
+  "redeemCodes": [
+    {
+      "code": "BGMI-NEWERA-2026",
+      "reward": "Urban Hunter Set (3d)",
+      "status": "Active",
+      "expiry": "2026-07-31"
+    },
+    {
+      "code": "BGMIDROPFAST",
+      "reward": "50x Silver Fragments",
+      "status": "Active",
+      "expiry": "2026-07-15"
+    },
+    {
+      "code": "WINNERCHICKEN",
+      "reward": "Classic Crate Coupon",
+      "status": "Active",
+      "expiry": "2026-06-30"
+    },
+    {
+      "code": "BGMIBOOTCAMP",
+      "reward": "Supply Crate Coupon",
+      "status": "Expired",
+      "expiry": "2026-05-10"
+    }
+  ],
+  "downloadStats": {
+    "playstore": 1255,
+    "apk": 843
+  },
+  "feedback": []
+}
